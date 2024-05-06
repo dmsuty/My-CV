@@ -1,3 +1,4 @@
+%-------------------------
 % Resume in Latex
 % Author : Jake Gutierrez
 % Based off of: https://github.com/sb2nov/resume
@@ -125,11 +126,11 @@
 % \end{tabular*}
 
 \begin{center}
-    \textcolor{BlueViolet}{\Huge \scshape Dmitry Sutiy} \\ \vspace{1pt}
-    Moscow, Otradnoe district \\ \vspace{1pt}
+    \textcolor{BlueViolet}{\Huge \scshape Dmitry Suty} \\ \vspace{1pt}
+    Moscow\\ \vspace{1pt}
     \small \raisebox{-0.1\height}\faPhone\ +7-968-578-60-08 ~ \href{mailto:dmsutyy@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{dmsutyy@gmail.com}} ~ 
     \href{https://vk.com/dmsuty}{\raisebox{-0.2\height}\faVk\ \underline{vk/dmsuty}}  ~
-    \href{https://github.com/}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/dmsuty}}
+    \href{https://github.com/}{\raisebox{-0.2\height}\faGithub\ \underline{github/dmsuty}}
     \vspace{-8pt}
 \end{center}
 
@@ -143,20 +144,24 @@
     \resumeSubheading
       {Moscow Institute of Physics and Technology (MIPT)}{2021 -- 2025}
       {Phystech School of Applied Mathematics and Informatics}{Moscow}
+    \resumeSubheading
+      {Department of Intellectual Document Processing}{2024 -- 2025}
+      {A4 Foundation, former ABBYY}{Moscow}
   \resumeSubHeadingListEnd
+  
 
-%------RELEVANT COURSEWORK-------
-\section{\textcolor{BlueViolet}{Relevant Coursework}}
+%------RELEVANT COURSE-------
+\section{\textcolor{BlueViolet}{Relevant Courses}}
     %\resumeSubHeadingListStart
         \begin{multicols}{4}
             \begin{itemize}[itemsep=-5pt, parsep=3pt]
-                \item Algorithms
-                \item Data structures
-                \item Design patterns
-                \item Mathematics
-                \item Backend
-                \item Optimization
-                \item OOP-programming
+                \item Algorithms and
+                \item[] Data Structures(9)
+                \item Algebra Geometry(8)
+                \item Probability Theory(5)
+                \item Methods of Optimisation
+                \item CAOS(8)
+                \item ML
                 
             \end{itemize}
         \end{multicols}
@@ -196,43 +201,27 @@
     \vspace{-5pt}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{ "Bulls and Cows"} $|$ \emph{Python3, PyQt}}{}
-          \resumeItemListStart
-            \resumeItem{\href{https://github.com/dmsuty/My_projects/blob/main/cows_bulls.py}{\textcolor{Emerald}{\underline{Open repository with the game code}}}}
-            \resumeItem{Program works with computer files so it saves the leaderboards.}
-            \resumeItem{Implemented visual interface.}
-          \resumeItemListEnd
-          \vspace{-13pt}
-      \resumeProjectHeading
-          {\textbf{Fractals Generator} $|$ \emph{Python3, PyQt}}{}
-          \resumeItemListStart
-            \resumeItem{\href{https://github.com/dmsuty/My_projects/blob/main/snowflake.py}{\textcolor{Emerald}{\underline{Open repository with the generator code}}}}
-            \resumeItem{There are 3 types of curves, and the app allows you to choose the number of fractal steps}
-            \resumeItem{Implemented visual interface.}
-          \resumeItemListEnd 
-          \vspace{-13pt}
-       \resumeProjectHeading
-          {\textbf{Text Encoder} $|$ \emph{Python3}}{}
-          \resumeItemListStart
-            \resumeItem{\href{https://github.com/dmsuty/Text-Encoder}{\textcolor{Emerald}{\underline{Open repository with the Encoder code}}}}
-            \resumeItem{The application allows you to encrypt and decrypt text}
-            \resumeItem{The application has various encryption algorithms}
-          \resumeItemListEnd 
-          \vspace{-13pt}
-      \resumeProjectHeading
-          {\textbf{Bank System} $|$ \emph{Python3, sqlite3}}{}
+          {\textbf{Simple Bank System} $|$ \emph{Python3, sqlite3}}{}
           \resumeItemListStart
             \resumeItem{\href{https://github.com/dmsuty/Simple-Bank-System}{\textcolor{Emerald}{\underline{Open repository with the Bank code}}}}
-            \resumeItem{This project implements the backend of a simple banking system. You can create deposits, loans and debit accounts with different conditions.}
-            \resumeItem{The code follows the principles of OOP and uses design patterns.}
+            \resumeItem{This project implements the backend of a simple banking system. You can create deposits, loans and debit accounts with different conditions}
+            \resumeItem{The code follows the principles of OOP and uses design patterns}
             \resumeItem{The application uses databases to store data}
           \resumeItemListEnd
           \vspace{-13pt}
       \resumeProjectHeading
-        {\textbf{Std Structures Realisation} $|$ \emph{C++}}{}
+        {\textbf{Containers Realisation} $|$ \emph{C++}}{}
           \resumeItemListStart
             \resumeItem{\href{https://github.com/dmsuty/std-containers}{\textcolor{Emerald}{\underline{Open repository with code}}}}
-            \resumeItem{Implementation of standard structures. There is an implementation of iterators, allocators, exceptions, template programming, and move semantics should appear in the foreseeable future}
+            \resumeItem{Implementation of structures from c++ standard library}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Linux-processes API} $|$ \emph{Python3, Docker, FastAPI}}{}
+          \resumeItemListStart
+            \resumeItem{\href{https://github.com/dmsuty/Linux-Process-API}{\textcolor{Emerald}{\underline{Open repository with the code}}}}
+            \resumeItem{Launchs processes in the container.}
+            \resumeItem{Gives the API to track information about process to user}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 \vspace{-15pt}
@@ -243,37 +232,86 @@
 \section{\textcolor{BlueViolet}{Technical Skills}}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-        \textbf{Programming languages}{: C++(strong knowledge), Python(strong knowledge), Go} \\
-     \textbf{Technologies/Frameworks}{: Linux, Git, \LaTeX, Docker, CMake, JupyterNotebook, CI/CD, Bash, Pandas, MatPlotLib} \\
+        \textbf{Programming languages}{: C++, C, Python, Rust (no work experience), Go(no work experience)} \\
+     \textbf{Technologies/Frameworks}{: Linux, Git, SQL, Docker, CMake, Numpy, Pandas, PyTorch, Bash, Qt6, } \\
     }}
  \end{itemize}
  \vspace{-16pt}
 
 
-%-----------INVOLVEMENT---------------
+%-----------Languages-----------
+\section{\textcolor{BlueViolet}{Languages}}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+        \textbf{Russian:}{ native speaker} \\
+        \textbf{English:}{ intermediate} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+%-----------Involvement-----------
+\section{\textcolor{BlueViolet}{Involvement}}
+ \begin{itemize}[leftmargin=0.15in]
+    {\item{
+        { CAOS assistent at MIPT (September 23 - December 23) - I checked the students' tasks in assembler, processes, file system, etc} \\
+    }}
+    {\item{
+        { C++ internship at Yandex (August 23 - December 23) - Participated in the development of video search: wrote the infrastructure in Python and C++}
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+  %-----------Olympiads-----------
+\section{\textcolor{BlueViolet}{Olympiads}}
+ \begin{itemize}[leftmargin=0.15in]
+    {\item{
+        { Two-time prize-winner of the Moscow Mathematical Olympiad} \\
+    }}
+    {\item{
+        { Winner of the "Phystech" Olympiad in Mathematics } \\
+    }}
+    {\item{
+        { Prize-winner of the Moscow Olympiad in computer science } \\
+    }}
+    {\item{
+        { prize-winner of the regional stage of the All-Russian Olympiad of schoolchildren in programming } \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+ %-----------Other-----------
+\section{\textcolor{BlueViolet}{Other}}
+ \begin{itemize}[leftmargin=0.15in]
+    {\item{
+        { GPA: 6.5} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+% -----------INVOLVEMENT---------------
 % \section{\textcolor{BlueViolet}{Involvement}}
-    % \resumeSubHeadingListStart
-    %     \resumeSubheading{Fraternity}{Spring 2020 -- Present}{President}{University Name}
-    %         \resumeItemListStart
-    %             \resumeItem{Achieved a 4 star fraternity ranking by the Office of Fraternity and Sorority Affairs (highest possible ranking).}
-    %             \resumeItem{Managed executive board of 5 members and ran weekly meetings to oversee progress in essential parts of the chapter.}
-    %             \resumeItem{Led chapter of 30+ members to work towards goals that improve and promote community service, academics, and unity.}
-    %         \resumeItemListEnd
+%     \resumeSubHeadingListStart
+        % \resumeSubheading{Fraternity}{Spring 2020 -- Present}{President}{University Name}
+        %     \resumeItemListStart
+        %         \resumeItem{Achieved a 4 star fraternity ranking by the Office of Fraternity and Sorority Affairs (highest possible ranking).}
+        %         \resumeItem{Managed executive board of 5 members and ran weekly meetings to oversee progress in essential parts of the chapter.}
+        %         \resumeItem{Led chapter of 30+ members to work towards goals that improve and promote community service, academics, and unity.}
+        %     \resumeItemListEnd
         
     % \resumeSubHeadingListEnd
 
-\section{\textcolor{BlueViolet}{Other}}
-%   \resumeItemListStart
-%     \resumeItem{Friendly and optimistic}
-%     \resumeItem{Very sociable}
-%     \resumeItem{Strong analytical skills}
+% \section{\textcolor{BlueViolet}{Other}}
+% %   \resumeItemListStart
+% %     \resumeItem{Friendly and optimistic}
+% %     \resumeItem{Very sociable}
+% %     \resumeItem{Strong analytical skills}
 
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Soft Skills}{: Friendly, Optimistic, Sociable, Analytical Skills, Creative} \\
-     \textbf{Hobbies}{: Literature, Team Sports, History, Hiking} \\
- \end{itemize}
- \vspace{-16pt}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \textbf{Soft Skills}{: Friendly, Optimistic, Sociable, Analytical Skills, Creative} \\
+%      \textbf{Hobbies}{: Literature, Team Sports, History, Hiking}}} \\
+%  \end{itemize}
+%  \vspace{-16pt}
 
 \end{document}
 
